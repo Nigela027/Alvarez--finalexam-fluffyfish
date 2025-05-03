@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8dfa74;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#gameContainer {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+}
+
+#startScreen, #gameOverScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 133, 235, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  z-index: 10;
+}
+
+#gameOverScreen {
+  display: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#finalScore {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 1.2em;
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #FF8C00;
+  transform: translateY(-2px);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

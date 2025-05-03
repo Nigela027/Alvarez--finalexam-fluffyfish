@@ -1,0 +1,13 @@
+{
+  "name": "Flappy Fish",
+  "short_name": "FlappyFish",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#87CEEB",
+  "description": "A fun Flappy Bird clone with fish!",
+  "icons": [{
+    "src": "assets/fish icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
